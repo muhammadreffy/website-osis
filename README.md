@@ -67,8 +67,21 @@ Sistem secara otomatis mendeteksi status pemilihan berdasarkan waktu, apakah pem
 <ul>
     <li>
         Jika status pemilihan adalah "akan datang", pengguna belum bisa memberikan suara.
+    </li>  
+</ul>
+
+<ul>
+    <li>
+        Jika status pemilihan "sedang berlangsung", pengguna dapat melihat kandidat dan memberikan suara sesuai dengan pilihannya. Pengguna hanya dapat memberikan satu suara per kategori, dan jika ingin mengganti pilihan, mereka harus membatalkan suara sebelumnya.
     </li>
 </ul>
+
+<ul>
+    <li>
+        Jika status pemilihan "sudah ditutup", pengguna tidak bisa lagi melakukan voting dan hanya bisa melihat hasil atau informasi terkait pemilihan tersebut.
+    </li>
+</ul>
+
 
 <h3>Tech Stack:</h3>
 <ol>
